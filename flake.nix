@@ -240,10 +240,15 @@
       flake = false;
     };
 
+    gruvbox = {
+      url = github:ellisonleao/gruvbox.nvim;
+      flake = false;
+    };
+
     rosepine = {
       url = github:rose-pine/neovim;
       flake = false;
-    };
+    }
 
     tokyonight = {
       url = github:folke/tokyonight.nvim;
