@@ -167,6 +167,21 @@ let
     };
   };
 
+  gruvbox = {
+    vim = {
+      statusline.lualine = {
+        enable = true;
+        theme = "gruvbox";
+      };
+      theme = {
+        enable = true;
+        name = "gruvbox";
+        style = "dark";
+        transparency = false;
+      };
+    };
+  };
+  
   tokyo-night = {
     vim = {
       statusline.lualine = {
@@ -203,6 +218,10 @@ in
 
   scala-rose-pine = neovimBuilder {
     config = deepMerge cfg rose-pine;
+  };
+  
+  scala-gruvbox = neovimBuilder {
+    config = deepMerge cfg gruvbox;
   };
 
   scala-tokyo-night = neovimBuilder {

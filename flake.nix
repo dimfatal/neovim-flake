@@ -240,10 +240,15 @@
       flake = false;
     };
 
+    gruvbox = {
+      url = github:ellisonleao/gruvbox.nvim;
+      flake = false;
+    };
+
     rosepine = {
       url = github:rose-pine/neovim;
       flake = false;
-    };
+    }
 
     tokyonight = {
       url = github:folke/tokyonight.nvim;
@@ -435,6 +440,7 @@
           scala = default-ide.scala.neovim;
           scala-nightly = default-ide.scala-nightly.neovim;
           scala-rose-pine = default-ide.scala-rose-pine.neovim;
+          scala-gruvbox = default-ide.scala-gruvbox.neovim;
           scala-tokyo-night = default-ide.scala-tokyo-night.neovim;
 
           # Neovim configuration files
