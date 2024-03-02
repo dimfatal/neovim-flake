@@ -248,7 +248,7 @@
     rosepine = {
       url = github:rose-pine/neovim;
       flake = false;
-    }
+    };
 
     tokyonight = {
       url = github:folke/tokyonight.nvim;
