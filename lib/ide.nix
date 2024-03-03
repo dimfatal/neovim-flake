@@ -181,6 +181,21 @@ let
       };
     };
   };
+
+  kanagawa = {
+    vim = {
+      statusline.lualine = {
+        enable = true;
+        theme = "kanagawa";
+      };
+      theme = {
+        enable = true;
+        name = "kanagawa";
+        style = "lotus";
+        transparency = false;
+      };
+    };
+  };
   
   tokyo-night = {
     vim = {
@@ -222,6 +237,10 @@ in
   
   scala-gruvbox = neovimBuilder {
     config = deepMerge cfg gruvbox;
+  };
+
+  scala-kanagawa = neovimBuilder {
+    config = deepMerge cfg kanagawa;
   };
 
   scala-tokyo-night = neovimBuilder {
