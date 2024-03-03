@@ -58,6 +58,9 @@ in
           "nightfox"
           "rose-pine"
           "rose-pine-alt"
+          "kanagawa-wave"
+          "kanagawa-lotus"
+          "kanagawa-dragon"
         ];
       description = "Theme for lualine";
     };
