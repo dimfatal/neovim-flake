@@ -245,6 +245,11 @@
       flake = false;
     };
 
+    kanagawa = {
+      url = github:rebelot/kanagawa.nvim;
+      flake = false;
+    };
+
     rosepine = {
       url = github:rose-pine/neovim;
       flake = false;
@@ -441,6 +446,7 @@
           scala-nightly = default-ide.scala-nightly.neovim;
           scala-rose-pine = default-ide.scala-rose-pine.neovim;
           scala-gruvbox = default-ide.scala-gruvbox.neovim;
+          scala-kanagawa = default-ide.scala-kanagawa.neovim;
           scala-tokyo-night = default-ide.scala-tokyo-night.neovim;
 
           # Neovim configuration files
